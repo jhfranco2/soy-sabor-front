@@ -1,0 +1,57 @@
+  
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre las tarjetas */
+    justify-content: space-between; /* Distribuye las tarjetas uniformemente */
+}
+
+.card {
+    flex: 0 0 calc(33.33% - 20px); /* Cuatro columnas y espacio entre las tarjetas */
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    max-width: cal(33.33% - 20%);
+}
+ 
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+p {
+    margin: 0;
+}
+
+/* Media Query para dispositivos móviles */
+@media (max-width: 768px) {
+    .card {
+        flex: 0 0 calc(100% - 20px); /* Dos columnas en dispositivos móviles */
+    }
+}
+
+/* styles.css o styles.scss */
+.custom-container {
+    max-width: 800px; /* Ajusta el ancho máximo según tus preferencias */
+    margin: 0 auto; /* Centra horizontalmente el contenedor */
+}

@@ -14,6 +14,7 @@ import { MatListModule } from '@angular/material/list';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { FormsModule } from '@angular/forms';
 import { HomeComponent } from './componentes/home/home.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { HomeComponent } from './componentes/home/home.component';
     MatToolbarModule,
     MatListModule,
     MatCheckboxModule,
-    FormsModule
+    FormsModule,
+    RouterModule
     
   ],
   providers: [],
