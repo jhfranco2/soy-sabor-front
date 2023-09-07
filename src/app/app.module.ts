@@ -15,12 +15,16 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { FormsModule } from '@angular/forms';
 import { HomeComponent } from './componentes/home/home.component';
 import { RouterModule } from '@angular/router';
+import { CombosAsadoComponent } from './componentes/combos-asado/combos-asado.component';
+import { CardComponent } from './componentes/card/card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
-    HomeComponent
+    HomeComponent,
+    CombosAsadoComponent,
+    CardComponent
     
   ],
   imports: [
