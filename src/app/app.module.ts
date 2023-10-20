@@ -17,6 +17,7 @@ import { HomeComponent } from './componentes/home/home.component';
 import { RouterModule } from '@angular/router';
 import { CombosAsadoComponent } from './componentes/combos-asado/combos-asado.component';
 import { CardComponent } from './componentes/card/card.component';
+import { PlatosALaCartaComponent } from './componentes/platos-a-la-carta/platos-a-la-carta.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { CardComponent } from './componentes/card/card.component';
     MenuComponent,
     HomeComponent,
     CombosAsadoComponent,
-    CardComponent
+    CardComponent,
+    PlatosALaCartaComponent
     
   ],
   imports: [

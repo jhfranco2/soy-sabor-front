@@ -1,0 +1,11 @@
+<div class="container center">
+    <div class="row">
+        <div *ngFor="let pollo of platosCarta" class="col-md-3">
+            <app-card [imageUrl]="pollo.imageUrl" [title]="pollo.title" [description]="pollo.description"
+                [price]="pollo.price"></app-card>
+                <br>
+        </div>
+    </div>
+    
+</div>
+
